@@ -1,0 +1,2 @@
+pypostalcode==0.3.4
+unicodecsv==0.14.1
