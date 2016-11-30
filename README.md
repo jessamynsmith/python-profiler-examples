@@ -1,7 +1,7 @@
 python-profiler-example
 =======================
 
-Examples of profiling Python code, used in this [Profiling Talk]()
+Examples of profiling Python code, used in this [Profiling Talk](https://python-profiler-slides.herokuapp.com/)
     
 
 Files
