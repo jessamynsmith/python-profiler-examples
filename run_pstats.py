@@ -2,7 +2,7 @@ import pstats
 
 
 def main():
-    p = pstats.Stats('output/csv_checker_1.cprof')
+    p = pstats.Stats('output/csv_checker_0.cprof')
     p.sort_stats('cumtime')
     p.print_stats(20)
 

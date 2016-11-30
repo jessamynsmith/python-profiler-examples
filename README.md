@@ -9,10 +9,10 @@ Files
 
 Postal code checkers for a CSV:
 
-    csv_checker_1.py - Naive approach
-    csv_checker_2.py - Only connect to DB once
-    csv_checker_3.py - Only lookup each postal code once
-    csv_checker_4.py - Switch from DictReader to reader
+    csv_checker_0.py - Naive approach
+    csv_checker_1.py - Only connect to DB once
+    csv_checker_2.py - Only lookup each postal code once
+    csv_checker_3.py - Switch from DictReader to reader
     
 Other examples:
 
@@ -37,25 +37,25 @@ to be the actual path to python3 on your system.
 
 Run any of the python scripts, e.g.:
 
-    python csv_checker_1.py
+    python csv_checker_0.py
     
 Time any of the python scripts, e.g.:
 
-    time python csv_checker_1.py
+    time python csv_checker_0.py
     
 Profile any of the python scripts and show data, e.g.:
 
-    python -m cProfile -s cumtime csv_checker_1.py
+    python -m cProfile -s cumtime csv_checker_0.py
     
 Profile any of the python scripts and save data for later analysis, e.g.:
 
-    python -m cProfile -o output/csv_checker_1.cprof csv_checker_1.py
+    python -m cProfile -o output/csv_checker_0.cprof csv_checker_0.py
     
 Analyze data with pstats (in python), e.g.:
 
     import pstats
     
-    p = pstats.Stats('output/csv_checker_1.cprof')
+    p = pstats.Stats('output/csv_checker_0.cprof')
     p.sort_stats('cumtime')
     p.print_stats()
     
